@@ -27,3 +27,14 @@
 > 
 > Buon divertimento e confermate lettura come al solito <:babyyoda:1374696912799924234> 
 >
+
+
+.tiktok-sans-<uniquifier> {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}

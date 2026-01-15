@@ -34,7 +34,38 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display:flex;
+	justify-content: space-between;
+	padding: 4% 5%;
+
 }
+
+/*Header Buttons*/
+
+.reel-header > button {
+	background-color: transparent;
+    color: white;
+    border: none;
+    font-size: larger;
+	fon
+}
+
+nav button {
+	background-color: transparent;
+    border: none;
+    font-family: "TikTok Sans", sans-serif;
+    color: #ffffff69;
+    font-weight: 550;
+    font-size: medium;
+    padding: 5px;
+}
+
+nav button:last-child {
+	color: white;
+	border-bottom:2px solid white;
+}
+
+
 
 /* Footer */
 
@@ -75,7 +106,7 @@ da rimuovere una volta concluso
 	border: 2px dashed #ff0;
 }
 
-.debug .reel-header {
+/*.debug .reel-header {
 	min-height: 50px;
 	border: 2px dashed #fff;
 }
