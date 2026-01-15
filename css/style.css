@@ -85,22 +85,45 @@ footer {
 	padding: 0 16px;
 	position: absolute;
 	right: 0;
-	top: 40%;
+	top: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+   
 	
 }
 
-.sidebar button {
-	background-color: transparent;
-	color: white;
-	padding: 7%;
+/*buttons sidebar*/
+
+.button-profile img {
+	
+	width: 100%;
+	border-radius: 100%;
+	border: 2px solid white;
+
+	
+	
 }
 
+
+
+
+
+.sidebar div {
+	background-color: transparent;
+	color: white;
+	text-align: center;
+	font-size: smaller;
+	
+}
+
+.sidebar i {
+	display: block;
+	font-size: x-large;
+}
 
 
 
@@ -148,13 +171,17 @@ p {
 	font-size: x-large;
 	display: block;
 }
+
+
+
+
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
 
 .debug .sidebar {
-	min-width: 80px;
+	max-width: 80px;
 	min-height: 450px;
 	border: 2px dashed #ff0;
 }
