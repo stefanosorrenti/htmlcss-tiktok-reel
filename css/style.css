@@ -101,14 +101,57 @@ footer {
 	padding: 7%;
 }
 
+
+
+
+/*Footer*/
+
+/*Info Video Section*/
+
+.info-video {
+	font-family: "TikTok Sans", sans-serif;
+    padding: 0px 10px;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: small;
+    margin-top: 5px;
+}
+
+.more-info {
+	font-weight: bold;
+}
+
+
+/*Buttons Foot*/
+
+.footer-buttons {
+	background-color: black;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 3%;
+	
+	
+}
+
+.footer-buttons .button-foot {
+	background-color: transparent;
+    color: white;
+    border: none;
+	font-size: x-small;
+
+}
+
+.footer-buttons i {
+	font-size: x-large;
+	display: block;
+}
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
-	min-height: 100px;
-	border: 2px dashed #fff;
-}
 
 .debug .sidebar {
 	min-width: 80px;
@@ -116,9 +159,9 @@ da rimuovere una volta concluso
 	border: 2px dashed #ff0;
 }
 
-/*.debug .reel-header {
+.debug .reel-header {
 	min-height: 50px;
-	border: 2px dashed #fff;
+	
 }
 
 /* --------------------- */
