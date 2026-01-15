@@ -89,6 +89,16 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	
+}
+
+.sidebar button {
+	background-color: transparent;
+	color: white;
+	padding: 7%;
 }
 
 /* ---------------------
